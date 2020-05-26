@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:paddingTop="10dp"
-            android:text="마이페이지"
+            android:text="mypage마이페이지"
             android:textColor="@color/colorWhite"
             android:textSize="20sp"
             app:layout_constraintTop_toTopOf="parent" />
