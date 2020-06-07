@@ -26,15 +26,6 @@ public class MainActivity extends AppCompatActivity {
 
 //mypage2
 
-//
-//        ImageView imageView = (ImageView) findViewById(R.id.imageProfile);
-//
-//        GradientDrawable drawable=
-//                (GradientDrawable) getDrawable(R.drawable.imageround);
-//
-//        imageView.setBackground(drawable);
-//        imageView.setClipToOutline(true);
-//
 //        ListView listview = findViewById(R.id.listview);
 //
 //        ArrayList<Customer> items = new ArrayList<>();
@@ -65,12 +56,16 @@ public class MainActivity extends AppCompatActivity {
 //        // 어댑터 안에 데이터 담기
 //        final GridAdapter adapter = new GridAdapter();
 //
-//        adapter.addItem(new GridItem("소녀시대"));
-//        adapter.addItem(new GridItem("소녀시대2"));
-//        adapter.addItem(new GridItem("소녀시대3"));
-//        adapter.addItem(new GridItem("소녀시대4"));
-//        adapter.addItem(new GridItem("소녀시대5"));
-//        adapter.addItem(new GridItem("소녀시대6"));
+//        adapter.addItem(new GridItem("다이어리1"));
+//        adapter.addItem(new GridItem("다이어리2"));
+//        adapter.addItem(new GridItem("다이어리3"));
+//        adapter.addItem(new GridItem("다이어리4"));
+//        adapter.addItem(new GridItem("다이어리5"));
+//        adapter.addItem(new GridItem("다이어리6"));
+//        adapter.addItem(new GridItem("다이어리7"));
+//        adapter.addItem(new GridItem("다이어리8"));
+//        adapter.addItem(new GridItem("다이어리9"));
+//
 //
 //        // 리스트 뷰에 어댑터 설정
 //        gridView.setAdapter(adapter);
@@ -83,9 +78,9 @@ public class MainActivity extends AppCompatActivity {
 //                Toast.makeText(getApplicationContext(), "선택 :" + item.getName(), Toast.LENGTH_LONG).show();
 //            }
 //        });
-//
-//    }
-//
+
+    }
+
 //    public class GridAdapter extends BaseAdapter {
 //        ArrayList<GridItem> items = new ArrayList<GridItem>();
 //
@@ -125,7 +120,7 @@ public class MainActivity extends AppCompatActivity {
 //
 //            return view;
 //        }
-
-    }
+//
+//    }
 
 }
