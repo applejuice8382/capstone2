@@ -83,48 +83,48 @@ public class MainActivity extends AppCompatActivity {
 //                Toast.makeText(getApplicationContext(), "선택 :" + item.getName(), Toast.LENGTH_LONG).show();
 //            }
 //        });
-//
-//    }
-//
-//    public class GridAdapter extends BaseAdapter {
-//        ArrayList<GridItem> items = new ArrayList<GridItem>();
-//
-//
-//        // Generate > implement methods
-//        @Override
-//        public int getCount() {
-//            return items.size();
-//        }
-//
-//        public void addItem(GridItem item) {
-//            items.add(item);
-//        }
-//
-//        @Override
-//        public Object getItem(int position) {
-//            return items.get(position);
-//        }
-//
-//        @Override
-//        public long getItemId(int position) {
-//            return position;
-//        }
-//
-//        @Override
-//        public View getView(int position, View convertView, ViewGroup parent) {
-//            GridItemView view = null;
-//            if (convertView == null) {
-//                view = new GridItemView(getApplicationContext());
-//            } else {
-//                view = (GridItemView) convertView;
-//            }
-//
-//            GridItem item = items.get(position);
-//
-//            view.setName(item.getName());
-//
-//            return view;
-//        }
+
+    }
+
+    public class GridAdapter extends BaseAdapter {
+        ArrayList<GridItem> items = new ArrayList<GridItem>();
+
+
+        // Generate > implement methods
+        @Override
+        public int getCount() {
+            return items.size();
+        }
+
+        public void addItem(GridItem item) {
+            items.add(item);
+        }
+
+        @Override
+        public Object getItem(int position) {
+            return items.get(position);
+        }
+
+        @Override
+        public long getItemId(int position) {
+            return position;
+        }
+
+        @Override
+        public View getView(int position, View convertView, ViewGroup parent) {
+            GridItemView view = null;
+            if (convertView == null) {
+                view = new GridItemView(getApplicationContext());
+            } else {
+                view = (GridItemView) convertView;
+            }
+
+            GridItem item = items.get(position);
+
+            view.setName(item.getName());
+
+            return view;
+        }
 
     }
 
