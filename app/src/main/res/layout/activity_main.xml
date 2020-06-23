@@ -7,16 +7,24 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
-    <include
-        layout="@layout/signup"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <include
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+
+        <include
+            layout="@layout/main_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <include
         layout="@layout/bottomappbar"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-
+    </LinearLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
